@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#home{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: azure;
+    margin-left: 20px;
+    
+
+}
+
+#home a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+
+#basic-details{
+    height: 60vh;
+    width: 45vw;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dish-image{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#dish-image img {
+    height:100%;
+    width: 100%;
+}
+
+#dish-details{
+    height: 100%;
+    width:40% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#dish-details div{
+    display: flex;
+    align-items: center;
+}
+
+#dish-details div p{
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+#dish-details div a{
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+#description{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 20px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#ingredients{
+    height: 100% ;
+    width: 40% ;
+    margin-top: 20px;
+}
+
+#ingredients-list{
+    height: 100%;
+    width: 100%;
+}
+
+#ingredients h2{
+    margin-top: 5px ;
+    margin-bottom: 10px;
+}
+
+#directions{
+    height: 100%;
+    width: 60%;
+    margin-top: 20px;;
+
+}
+
+#cooking-directions{
+    font-size: 22px;
+    line-height: 1.7em;
+    
+}
+
+#directions h2{
+    margin-top: 5px ;
+    margin-bottom: 10px;
+}
+
+footer div{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;;
+}

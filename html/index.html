@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meal App</title>
+    <link rel="stylesheet" href="../css/home.css">
+   
+</head>
+<body>
+    <header>
+        <!-- page header -->
+        <h1> My Meal Club</h1>
+
+        <!-- searchbox to search for a meal of choice -->
+        <div >
+            <input id="searchbar" type="text" placeholder="search food or dish">
+            <!-- button to search item when clicked  -->
+            <button id="btn1" type="submit">
+                <!-- icon from fontawesome -->
+                 <i id="search-icon" class="fa-solid fa-magnifying-glass fa-beat-fade"> </i> 
+             </button>
+        </div>
+
+        <!-- suggestion list to help the user to select an item without having to type it completely -->
+        <div id="suggestions-div">
+            <ul id="suggestions-list">
+
+            </ul>
+        </div>
+    </header>   
+
+    <!-- main area of the page where the related seach result is displayed -->
+    <main>
+        <div id="meal-container">
+            <img id="image" alt="">
+        </div>
+
+        <!-- button to add an item to favourite list -->
+        <div>
+        <button id="btn-2" type="submit"> Add to favourites    
+        </button>
+        <i id="fav-btn" class="fa-solid fa-heart"> </i>
+
+        <!-- anchor tags to redirect to the details page and favourites page respectively -->
+        <a id="meal-details" href="./details.html" > Meal Details</a>
+        <a id="my-favs" href="./fav.html" > My Favourites</a>
+       
+        </div>
+
+        <!-- footer to interact with the user -->
+        <div id="footer"> can't wait to eat what u just searched for? click on MEAL DETAILS to make it yourself </div>
+
+    </main>
+
+    
+
+
+
+    <!-- javascript files -->
+    <script src="https://kit.fontawesome.com/44b0b2927e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../javascript/index.js" > </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Details</title>
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+
+<body>
+    <!--   heading of the page -->
+    <h1> Meal Details</h1>            
+
+        <!-- navigation to home page -->
+    <div id="home">
+        <a href="./index.html">Home</a>
+    </div>
+
+    <!-- sectioned the details of meals  -->
+    <section id="basic-details">
+        
+        <div id="dish-image">
+            <img id="pic" src="" alt="">
+        </div>
+
+        <!-- div to show the name category and other details of the dish -->
+        <div id="dish-details">
+            <div>
+                <h2>Name: </h2>
+                <p id="dish-name"></p>
+            </div>
+
+            <div>
+                <h2>Category: </h2>
+                <p id="dish-category"></p>
+            </div>
+
+            <div>
+                <h2>Cuisine: </h2>
+                <p id="dish-cuisine"></p>
+            </div>
+
+            <div>
+                <h2>Recipe:</h2>
+                <a id="youtube-link" href=""></a>
+            </div>
+
+        </div>
+
+
+    </section>
+<!-- another section for the ingredients and its measures -->
+    <section id="description">
+        <div id="ingredients">
+            <!-- adding a list of ingredients -->
+            <h2><u> Ingredients</u> </h2>
+            <ol id="ingredients-list">
+                
+
+            </ol>
+        </div>
+
+        <div id="directions">
+            <!-- adding a direction to cook the searched meal -->
+            <h2><u>Directions to Cook </u></h2>
+            <p id="cooking-directions"> </p>
+
+
+        </div>
+
+
+
+    </section>
+
+
+        <!-- footer to interact with the user -->
+    <footer>
+        <div>
+            <h3> what are you waiting for? </h3>
+        </div>
+        
+        <div>
+            <p>try it now!</p>
+        </div>
+
+    </footer>
+
+
+    <!-- javascript files -->
+    <script type="text/javascript" src="../javascript/index.js"></script>
+    <script type="text/javascript" src="../javascript/details.js"></script>
+
+</body>
+
+</html>
